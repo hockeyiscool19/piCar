@@ -2,6 +2,27 @@
 
 This readme will not only cover my project goals, what I achieve, and how I do it. I will also log the important sub-problems I solve along the way. 
 
+## Documentation
+### Windows Formatting Process
+1. Insert SD card.
+2. Go to command prompt typing diskpart
+3. Enter commands:
+```
+DISKPART> list disk
+
+DISKPART> select Disk 1
+
+DISKPART> clean
+
+DISKPART> list partition
+
+DISKPART> create partition primary
+
+DISKPART> format fs=ntfs quick
+
+```
+4. Go to Imager and re-download Pi OS. 
+
 # The Journey
 ## Outlook
 In my journey, I hope to cover my more pragmatic challenges and realizations. At the end of the day, this project involves hardware, and so I hope to bring you through the engineering and design in addition to the machine learning. (I have never worked with embedded systems, so I will be learning along the way too!)
@@ -12,3 +33,5 @@ One major problem I faced today was that I did not have an HDMI chord for my Ras
 
 ### Day 2
 Still having challenges ssh tunneling into my Pi. I suspect it is due to the SD card is not writing properly in my Windows system. I could solve these challenges with a GUI, but I found terminal commands to do this from my CLI, which I find more understandable. In addition to setting up my Pi, I am also assembling my PiCar. Along with assembling the car, I am also learning a bit about each part -- i.e., what is a linear actuator, chassis, etc. I am relatively surprised how similar this toy car is to a Tesla. For toy robot design and industrial car design, the ebst part is no part, or, as Bill Clinton sai, KISS.
+
+
