@@ -23,6 +23,24 @@ DISKPART> format fs=ntfs quick
 ```
 4. Go to Imager and re-download Pi OS. 
 
+### See Pi through virtual machine
+1. Enable screen sharing from pi. 
+From Linux terminal on home computer:
+```
+ssh username@ip_address
+```
+Run commands from Pi: 
+```
+sudo apt update
+sudo apt install xrdp
+sudo systemctl enable xrdp
+sudo systemctl start xrdp
+hostname -I
+```
+2. Go to Windows Remote Desktop Connection.
+3. Type in ip address and username of pi (which for me is pi).
+4. Voila. 
+
 # The Journey
 ## Outlook
 In my journey, I hope to cover my more pragmatic challenges and realizations. At the end of the day, this project involves hardware, and so I hope to bring you through the engineering and design in addition to the machine learning. (I have never worked with embedded systems, so I will be learning along the way too!)
