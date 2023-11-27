@@ -53,3 +53,6 @@ One major problem I faced today was that I did not have an HDMI chord for my Ras
 Still having challenges ssh tunneling into my Pi. I suspect it is due to the SD card is not writing properly in my Windows system. I could solve these challenges with a GUI, but I found terminal commands to do this from my CLI, which I find more understandable. In addition to setting up my Pi, I am also assembling my PiCar. Along with assembling the car, I am also learning a bit about each part -- i.e., what is a linear actuator, chassis, etc. I am relatively surprised how similar this toy car is to a Tesla. For toy robot design and industrial car design, the ebst part is no part, or, as Bill Clinton sai, KISS.
 
 After hours of work, I realized that I could find what devices were on my account through the Xfinity app, my home ISP. I found that connecting an ethernet cable was unnecessary, since my rasberry pi connected just fine. This process of downloading the Pi OS took at least ten times, which I found super time consuming and frustrating. Nonetheless, burning the OS onto thE SD card gave me time to assemble the car in part and brush up on some C++. 
+
+### Day 3
+I successfully built the car, downloaded all the PiCar packages, and connected remotely into the Pi. ```Cheese``` allows me to display the camera. The car can even drive around now! 
