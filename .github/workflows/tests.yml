@@ -13,4 +13,3 @@ jobs:
       - name: Print Environment Variable
         run: |
           echo "The value of FOO is $FOO"
-
