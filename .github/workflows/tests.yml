@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      FOO: ${{ env.foo }}  # Setting the environment variable 'FOO'
+      FOO: ${{ env.FOO }}  # Setting the environment variable 'FOO'
     secrets:
       BAZZ: 
     steps:
