@@ -1,4 +1,4 @@
-impot os
+import os
 import pytest
 
 # Access the environment variable
