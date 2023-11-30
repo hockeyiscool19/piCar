@@ -7,7 +7,7 @@ foo = os.getenv('FOO', 'Default Value')
 
 bar = os.getenv("BAZZ", None)
 
-if bar not None:
+if bar:
     print("Got secret")
 else:
     print("Oh no")
