@@ -1,15 +1,13 @@
 name: Python
 
-<<<<<<< HEAD
-on:
-  push:
-    - main
-=======
 on: 
   push:
     branches:
       - main
->>>>>>> dd3d6b2 (stuff)
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
 
 jobs:
   build:
