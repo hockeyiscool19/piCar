@@ -56,3 +56,7 @@ After hours of work, I realized that I could find what devices were on my accoun
 
 ### Day 3
 I successfully built the car, downloaded all the PiCar packages, and connected remotely into the Pi. ```Cheese``` allows me to display the camera. The car can even drive around now! 
+
+### Day 4
+Today, I am attempting to download [OpenCV](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html) onto my WSL environment, building out documentation for the process.
+
