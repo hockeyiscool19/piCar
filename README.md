@@ -1,5 +1,6 @@
 # I am trying to build a self driving car
 
+
 This readme will not only cover my project goals, what I achieve, and how I do it. I will also log the important sub-problems I solve along the way. 
 
 ## Documentation
