@@ -1,5 +1,6 @@
 # I am trying to build a self driving car
 
+
 This readme will not only cover my project goals, what I achieve, and how I do it. I will also log the important sub-problems I solve along the way. 
 
 ## Documentation
@@ -41,6 +42,15 @@ hostname -I
 3. Type in ip address and username of pi (which for me is pi).
 4. Voila. 
 
+### Enabling Camera Through WSL
+
+1. Run```usbipd wsl list``` as an admin
+
+2. (Optional) If service is not running, type: ```Start-Service usbip```
+
+3. Attach correct USB device with command ```usbipd wsl attach --busid 1-3```
+
+
 # The Journey
 ## Outlook
 In my journey, I hope to cover my more pragmatic challenges and realizations. At the end of the day, this project involves hardware, and so I hope to bring you through the engineering and design in addition to the machine learning. (I have never worked with embedded systems, so I will be learning along the way too!)
@@ -56,3 +66,7 @@ After hours of work, I realized that I could find what devices were on my accoun
 
 ### Day 3
 I successfully built the car, downloaded all the PiCar packages, and connected remotely into the Pi. ```Cheese``` allows me to display the camera. The car can even drive around now! 
+
+### Day 4
+Today, I am attempting to download [OpenCV](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html) onto my WSL environment, building out documentation for the process.
+
